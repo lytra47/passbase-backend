@@ -5,6 +5,9 @@ const passDataSchema = new mongoose.Schema({
   saveWebsite: String,
   savePassword: String,
   saveNotes: String,
+  date: {
+    type: Date,
+  },
 });
 
 const userSchema = new mongoose.Schema({
